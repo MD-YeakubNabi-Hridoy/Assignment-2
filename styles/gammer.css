@@ -56,10 +56,11 @@
     align-items: center;
     width: 100%;
     height: 700px;
+    background-image: url(../images/Group\ 14.png);
 }
 .banner .banner-content{
     width: 50%;
-    text-align: center;
+    margin-left:210px;
 }
 .banner .banner-content h4{
     color: #0B0223;
@@ -76,6 +77,323 @@
 .banner .banner-content li{
     list-style: none;
     text-align: left;
-    margin-left:210px;
     margin-top: 10px;
+}
+.banner .banner-content .btn-1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.banner .banner-content .btn-2{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 500px;
+    margin-left: 20px;
+}
+/* gamer section css */
+.gamer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 600px;
+}
+.gamer .gamer-img img{
+    width: 600px;
+    margin-left: 100px;
+}
+.gamer .gamer-content{
+    text-align: right;
+    margin: 100px 200px 0 50px;
+}
+.gamer .gamer-content h3{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer .gamer-content p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gamer .gamer-content .btn-1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.gamer .gamer-content p{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 20px;
+}
+.gamer .gamer-content h4{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* funny videos section css */
+.funny-videos-section{
+    margin-top: 100px;
+}
+.funny-videos-section h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny-videos-section span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny-videos-section .funny-des{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.funny-videos{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    margin: 40px 180px;
+    text-align: center;
+}
+.funny-img{
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+}
+.funny-img-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+.funny-img-text h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF42A5;
+    margin-bottom: 15px;
+}
+.funny-img-text i{
+    font-size: 25px;
+    font-weight: 600;
+    color:#0B0223;
+    background: white;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+.funny-img-text:hover{
+    opacity: 1;
+}
+.funny-content .funny-img img{
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+.funny-content p{
+    color: #534C64;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-right: 50px;
+}
+.play-games{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin: 50px 200px;
+}
+.play-content h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-content p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 100px;
+}
+.play-img{
+    position: relative;
+}
+.play-img .img1{
+    position: absolute;
+    bottom: -50px;
+    left: -70px;
+    width: 40%;
+}
+.play-img .img2{
+    width: 500px;
+}
+/* career section css */
+.career{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    height: 700px;
+    background-color: #FF42A5;
+}
+.career .career-content{
+    margin-left: 150px;
+}
+.career .career-content h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.career .career-content p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.career .career-content .career-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.career .career-content .btn-3{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    padding: 15px 20px;
+}
+.career-img{
+    width: 700px;
+}
+.career-img img{
+    width: 700px;
+    height: 700px;
+}
+/* game section css */
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+    height: 300px;
+}
+.game-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 45px;
+    transition: all 0.2s;
+}
+.game-item:hover{
+    border:2px solid #F948B2;
+    border-radius: 45px;
+    color: #FF42A5;
+}
+/* footer section */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0B0223;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-menu ul li{
+    color: #FFF;
+    text-align: center;
+    list-style: none;
+    margin:30px ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sci-icon i{
+    font-size: 30px;
+    margin: 30px;
+    color: white;
+}
+.privacy ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.privacy ul li{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    margin:20px 50px;
+}
+footer small{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
 }
